@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>妈妈，50岁生日快乐！</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 贺卡封面 -->
+    <div class="card-cover" id="card-cover">
+        <div class="cake-container">
+            <div class="cake">
+                <div class="cake-top"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-bottom"></div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+        </div>
+        <h2 class="cover-title">妈妈，祝您50岁生日快乐！</h2>
+        <p class="cover-hint">点击蛋糕查看祝福</p>
+    </div>
+    
+    <!-- 贺卡内容 -->
+    <div class="card-container hidden" id="card-container">
+        <div class="birthday-card">
+            <div class="balloon-container">
+                <div class="balloon balloon-1"></div>
+                <div class="balloon balloon-2"></div>
+                <div class="balloon balloon-3"></div>
+                <div class="balloon balloon-4"></div>
+                <div class="balloon balloon-5"></div>
+            </div>
+            
+            <header>
+                <h1 class="card-title">妈妈，50岁生日快乐！</h1>
+            </header>
+            
+            <section class="card-content">
+                <p class="greeting">亲爱的妈妈郭瑞香，</p>
+                <div class="message">
+                    <p>在这特别的日子里，我想对您说的不仅仅是"生日快乐"。50年的岁月，您用智慧和坚韧书写了自己的人生篇章。您的爱，如同温暖的阳光，始终照耀着我前行的道路；您的关怀，如同细腻的雨露，滋养着我成长的每一步。</p>
+                    <p>今天，您迎来了自己的50岁生日，这是一个值得庆祝的里程碑。我衷心祝愿您，未来的日子里，健康快乐常伴您左右，每一天都充满欢笑与满足。</p>
+                    <p>妈妈，感谢您这么多年来的辛勤付出，您的无私奉献让我深深感动。您的坚韧和勇敢，是我学习的榜样；您的温柔和善良，是我心灵的慰藉。</p>
+                    <p>在这个特别的日子里，我想对您说：妈妈，您辛苦了！请为自己多一些关爱，多一些享受。愿您在未来的日子里，继续绽放属于自己的光彩，活出更加精彩的人生！</p>
+                    <p>妈妈，我爱您！谢谢您为我做的一切，也谢谢您一直以来的陪伴和支持。愿我们的母子情谊，如同这贺卡一般，历久弥新，永不褪色。</p>
+                </div>
+            </section>
+            
+            <div class="surprise-btn-container">
+                <div class="gift-box" id="surprise-btn">
+                    <div class="gift-box-top"></div>
+                    <div class="gift-box-body"></div>
+                    <div class="gift-ribbon-vertical"></div>
+                    <div class="gift-ribbon-horizontal"></div>
+                    <div class="gift-box-label">
+                        <i class="fas fa-gift"></i> 打开惊喜礼物
+                    </div>
+                </div>
+            </div>
+            
+            <div id="surprise-message" class="hidden">
+                <div class="surprise-cake-container">
+                    <div class="surprise-cake">
+                        <div class="surprise-cake-top"></div>
+                        <div class="surprise-cake-middle"></div>
+                        <div class="surprise-cake-bottom"></div>
+                        <div class="surprise-candle-container">
+                            <div class="surprise-candle candle-1">
+                                <div class="surprise-flame" id="flame-1"></div>
+                            </div>
+                            <div class="surprise-candle candle-2">
+                                <div class="surprise-flame" id="flame-2"></div>
+                            </div>
+                            <div class="surprise-candle candle-3">
+                                <div class="surprise-flame" id="flame-3"></div>
+                            </div>
+                            <div class="surprise-candle candle-4">
+                                <div class="surprise-flame" id="flame-4"></div>
+                            </div>
+                            <div class="surprise-candle candle-5">
+                                <div class="surprise-flame" id="flame-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swipe-hint">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>滑动屏幕吹灭蜡烛</span>
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                    </div>
+                </div>
+                
+                <div class="heart-container">
+                    <div class="heart"></div>
+                    <div class="sparkles">
+                        <div class="sparkle sparkle-1"></div>
+                        <div class="sparkle sparkle-2"></div>
+                        <div class="sparkle sparkle-3"></div>
+                        <div class="sparkle sparkle-4"></div>
+                        <div class="sparkle sparkle-5"></div>
+                    </div>
+                </div>
+                
+                <div class="surprise-poem">
+                    <h3>献给最爱的妈妈</h3>
+                    <p>光阴似箭五十载，<br>
+                    岁月留痕笑颜开。<br>
+                    鬓角添霜情更暖，<br>
+                    慈爱如水永不改。</p>
+                </div>
+                
+                <div class="surprise-message-text">
+                    <p>妈妈，愿您的每一天都像这张贺卡一样美好！</p>
+                    <p>感谢您用爱守护我们的家庭，祝您生日快乐，幸福安康！</p>
+                    <p class="wish-text hidden">您已经吹灭了所有蜡烛，愿您的愿望都能实现！</p>
+                </div>
+            </div>
+            
+            <button id="back-btn" class="back-btn">
+                <i class="fas fa-arrow-left"></i> 返回
+            </button>
+        </div>
+    </div>
+    
+    <!-- 音乐控制 -->
+    <div class="music-control" id="music-control">
+        <i class="fas fa-music"></i>
+    </div>
+    
+    <!-- 主题切换 -->
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-palette"></i>
+    </div>
+    
+    <!-- 分享按钮 -->
+    <div class="share-btn" id="share-btn">
+        <i class="fas fa-share-alt"></i>
+    </div>
+    
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    
+    <canvas id="fireworks"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
